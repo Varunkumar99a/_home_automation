@@ -210,8 +210,8 @@ module stimulus();
   end
 
   initial begin
-    $dumpvars;
-    $dumpfile("dump.vcd");
+    $dumpfile("votingMachine.vcd");
+    $dumpvars(0,stimulus);
   end
 
   initial begin
